@@ -3,8 +3,6 @@ from PIL import Image
 import pickle as pkl
 import numpy as np
 
-#class_list = {'0': 'Normal', '1': 'Pneumonia'}
-
 st.title('Mnist Detection')
 input = open('lrc_mnist.pkl', 'rb')
 model = pkl.load(input)
