@@ -1,5 +1,4 @@
-scikit-learn
-pickle 
 numpy
-PIL
-Image
+pandas
+streamlit
+scikit-learn
